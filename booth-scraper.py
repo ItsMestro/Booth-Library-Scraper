@@ -109,6 +109,7 @@ while True:
             newproduct.Downloads.append(newfile)
             download_count += 1
 
+        newproduct.Downloads.reverse()
         product_list.append(newproduct)
         product_count += 1
 
